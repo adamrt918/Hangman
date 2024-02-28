@@ -217,7 +217,6 @@ int main()
 		nextPhrase = randomPhraseIndex(static_cast<int>(difficulty), 
 			phraseArray, MAX_USED_INDEX);
 
-		cout << "Next Phrase is: " << phraseArray[nextPhrase].text << endl;
 		//Show the user their current hangman, and show the phrase with blanks.
 		//Then, ask them for their guesses, and re-display based on that guess.
 		runGame(phraseArray[nextPhrase]);
